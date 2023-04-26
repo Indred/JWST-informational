@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 8px;
     background-color: #1F2937;
 }
 
@@ -61,7 +61,7 @@ a {
 
 .hero-heading {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .hero-pgh {
@@ -85,10 +85,10 @@ a {
 }
 
 .info-image {
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 6px;
     display: flex;
-    height: 120px;
+    height: 140px;
     width: 160px;
 }
 
@@ -100,19 +100,22 @@ a {
 
 button {
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 8px 24px;
     background-color: #3882F6;
     border-color: #3882F6;
     color: #E5E7EB;
     font-weight: bold;
+    font-size: 18px;
+
 }
 
 .informational-header {
     text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
-    margin-top: 16px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 
 .informational {
@@ -120,6 +123,8 @@ button {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding: 72px;
+    padding-top: 0px;
 }
 
 .info {
@@ -128,4 +133,31 @@ button {
     justify-content: center;
     align-items: center;
     max-width: 200px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 108px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoted {
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.quote, .quoted {
+    margin-left: 180px;
+    margin-right: 180px;
 }
