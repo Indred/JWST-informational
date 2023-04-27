@@ -1,3 +1,3 @@
 # JWST-informational
 
-Applying all my CSS and HTML skills!
+Applying all my CSS and HTML skills so far!
