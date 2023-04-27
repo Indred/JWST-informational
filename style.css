@@ -58,6 +58,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 180px;
+    gap: 6px;
 }
 
 .hero-heading {
@@ -200,4 +201,13 @@ button {
 .sign-up.button {
     border-color:white ;
     margin: 1em 2em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
